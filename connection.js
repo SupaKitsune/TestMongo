@@ -4,7 +4,8 @@ var url = "mongodb://localhost:27017";
 
 MongoClient.connect(url, function(err, db){
 	if(err) throw err;
-	console.log("connection to MongoDB made");
+	console.log("Hello World");
+	//console.log("connection to MongoDB made");
 	
 	db.close();
 });
